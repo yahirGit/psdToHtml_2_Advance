@@ -90,3 +90,101 @@ table {
 }
 
 /* ----------- 2. <<END>> HELPER CLASS -----------*/
+
+
+
+/* ------ 2. GENERAL CLASS ------*/
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 880px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 0 55px;
+}
+body{
+    font-family: 'OpenSans_Google', sans-serif;
+    font-size: 18px;
+    background: #282828;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+/* ----------- 2. <<END>> GENERAL CLASS -----------*/
+
+
+
+
+
+/* ------ 2. SECTION TITLE RED CLASS ------*/
+.div_red_rectangle{
+    background-image: url('../assets/img/big-red-rectangle.png');
+    background-size: cover;
+    color: white;
+    font-family: 'OpenSans_Google', sans-serif;
+    text-align: center;
+    padding: 20px 70px;
+    font-size: 22px;
+    line-height: 37px;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.div_red_rectangle::after{
+    content: "";
+    position: absolute;
+    border-top: 15px solid #7d0000;
+    border-right: 16px solid transparent;
+    height: 0;
+    width: 0;
+    bottom: -15px;
+    right: -1px;
+}
+.div_red_rectangle::before{
+    content: "";
+    position: absolute;
+    border-top: 15px solid #7d0000;
+    border-left: 16px solid transparent;
+    height: 0;
+    width: 0;
+    bottom: -14px;
+    left: -1px;
+    right: 0; 
+}
+/* ----------- 2. <<END>> SECTION TITLE RED CLASS -----------*/
+
+.nth_paras{
+    padding-top: 30px;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+.greyish{
+    background: #faf9f7;
+    margin-left: -55px;
+    margin-right: -55px;
+    padding-left: 55px;
+}
+.person{
+    margin-top: -50px;
+    position: relative;
+    z-index: 1000;
+}
+.yellow_arrow{
+    position: relative;
+    display: inline;
+}
+.yellow_arrow::after{
+    content: "";
+    background: url('../assets/img/arrow.png') no-repeat;
+    position: absolute;
+    display: block;
+    height: 42px;
+    width: 68px;
+    top: 18px;
+    left: 38px;
+}
