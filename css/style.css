@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'OpenSans_Google';
+    src:
+        local("OpenSans-VariableFont_"),
+        url("../assets/fonts/OpenSans-VariableFont_.ttf") format("woff2"),
+        url("../assets/fonts/OpenSans-VariableFont_.ttf") format("woff"),
+        url("../assets/fonts/OpenSans-VariableFont_.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'OpenSans_Google_Italic';
+    src:
+        local("OpenSans-Italic-VariableFont_"),
+        url("../assets/fonts/OpenSans-Italic-VariableFont_.ttf") format("woff2"),
+        url("../assets/fonts/OpenSans-Italic-VariableFont_.ttf") format("woff"),
+        url("../assets/fonts/OpenSans-Italic-VariableFont_.ttf") format("truetype");
+}
+
+/* 
+    Porque se resetean los estilos por defecto en css
+    Usar reset CSS o normalize CSS.
+
+    Principalmente se resetean porque como es un proyecto web se tendria que poder abrir en
+    en todos los navegadores. y los navegadores por defecto tienen estilos predeterminados.
+    
+*/
+
+/* ========== RESET CSS =========== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, 
+mark, audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ----------- 2. <<END>> CSS RESET CLASS -----------*/
+
+
+
+/* ------ 2. HELPER CLASS ------*/
+.aling_right{
+    float: right;
+}
+.text_center{
+    text-align: center;
+}
+
+/* ----------- 2. <<END>> HELPER CLASS -----------*/
