@@ -188,3 +188,40 @@ p{
     top: 18px;
     left: 38px;
 }
+.person_2{
+    margin-left: -90px;
+    float: left;
+    margin-right: 28px;
+    z-index: 1;
+    position: relative;
+}
+h4.callout {
+    background: #ca0000;
+    padding: 15px 0px;
+    display: block;
+    margin: 50px 330px 20px 180px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+h4.callout::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 47px solid #ca0000;
+    border-right: 27px solid transparent;
+    right: -29px;
+    top: 0px;
+    left: 260px;
+}
+.silver_heading{
+    background: #f2f2f4;
+    font-family: 'OpenSans_Google', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+    padding: 25px 45px;
+    margin-left: -55px;
+    margin-right: -55px;
+}
