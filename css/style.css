@@ -102,6 +102,7 @@ table {
     margin: 0 auto;
     background: #ffffff;
     padding: 0 55px;
+    border: 1px solid transparent;
 }
 body{
     font-family: 'OpenSans_Google', sans-serif;
@@ -134,6 +135,7 @@ p{
     position: relative;
     margin-left: -70px;
     margin-right: -70px;
+    margin-top: 2px;
 }
 .div_red_rectangle::after{
     content: "";
